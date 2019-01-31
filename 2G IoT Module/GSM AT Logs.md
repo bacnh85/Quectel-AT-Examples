@@ -1,7 +1,7 @@
 # Introduction
 
 
-Tested on MC60
+Tested on MC60, M95
 
 # Basic information
 
@@ -36,6 +36,9 @@ Tested on MC60
 [2019-01-31 02:58:52:618_R:] OK
 ```
 ## Module information
+
+For M60:
+
 ```
 /* Use ATI to get module information of Manufacturer ID, Device module and Firmware version */
 [2019-01-31 02:58:52:633_S:] ATI
@@ -59,6 +62,24 @@ Tested on MC60
 [2019-01-31 02:58:52:696_R:] Revision: MC60CAR01A10
 
 [2019-01-31 02:58:52:696_R:] OK
+```
+
+For M95:
+
+```
+/* Use ATI to get module information of Manufacturer ID, Device modle and Firmware version */
+[2019-01-31 05:09:05:873_S:] ATI
+[2019-01-31 05:09:05:888_R:] ATI
+[2019-01-31 05:09:05:888_R:] Quectel_Ltd
+[2019-01-31 05:09:05:888_R:] Quectel_M95
+[2019-01-31 05:09:05:888_R:] Revision: M95FAR02A08
+
+[2019-01-31 05:09:05:888_R:] OK
+[2019-01-31 05:09:17:185_S:] AT+QGMR
+[2019-01-31 05:09:17:201_R:] AT+QGMR
+[2019-01-31 05:09:17:201_R:] M95FAR03A04
+
+[2019-01-31 05:09:17:201_R:] OK
 ```
 
 ## SIM card information
