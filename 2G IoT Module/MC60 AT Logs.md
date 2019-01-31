@@ -3,7 +3,7 @@
 
 Tested on MC60
 
-# Basic inforrmation
+# Basic information
 
 ## Module config
 
@@ -220,7 +220,7 @@ Setting: AT+QIMUX=0, single TCP/UDP Sessions
 ```
 
 #### Open Domain socket
-
+```
 /* Use ATV1 to set the response format */
 [2019-01-31 03:38:19:148_S:] ATV1
 [2019-01-31 03:38:19:148_R:] ATV1
@@ -242,7 +242,7 @@ Setting: AT+QIMUX=0, single TCP/UDP Sessions
 [2019-01-31 03:38:19:195_R:] OK
 
 [2019-01-31 03:38:20:695_R:] CONNECT OK
-
+```
 #### Send/Receive data
 ```
 /* AT+QISEND, send data to server, ">" from the UART indicates the following input data is considered as data to be send. After receiving ">", input data (TEST), the maximum length of the data is 1460, the data beyond 1460 will be omitted. Then use <CTRL+Z> to send data. When receive SEND OK means the data has been sent */
